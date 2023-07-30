@@ -1,0 +1,7 @@
+{
+  "name": "my-usermanager",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
