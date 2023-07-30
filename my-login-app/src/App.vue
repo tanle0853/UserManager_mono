@@ -1,19 +1,16 @@
 <template>
-  <div id="app">
-    <Login />
+  <div>
+    <h1>Welcome to My App</h1>
+    <LoginComponent /> <!-- Đảm bảo rằng bạn đã thêm component này vào đây -->
   </div>
 </template>
 
 <script>
-import Login from "./components/Login.vue";
+import LoginComponent from "./components/LoginComponent.vue";
 
 export default {
   components: {
-    Login,
+    LoginComponent,
   },
 };
 </script>
-
-<style>
-/* Thêm CSS cho component cha (tuỳ chọn) */
-</style>
